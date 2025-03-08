@@ -8,7 +8,6 @@ deep-learning-challenge/
 │   ├── raw/
 │   └── processed/
 ├── notebooks/
-└── images/
 ```
 
 ## Setup
