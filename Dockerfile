@@ -17,7 +17,7 @@ RUN pip install scikit-learn pandas tensorflow jupyter
 CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
 
 # docker run -it -p 8888:8888 -v /path/to/mod21:/app mod21_with_data
-# docker start -ai <71fa4a12ed20>
+# docker start -ai suspicious_hypatia
 # jupyter notebook --ip=0.0.0.0 --no-browser --allow-root
 
 
