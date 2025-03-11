@@ -1,23 +1,30 @@
 # deep-learning-challenge: Module 21 Neural Network Assigment
 
+The written analysis for this assignment is located in the Report.md file.
+
 ## Repo Directory
 
 ```PlainText
 deep-learning-challenge/
+├── .gitignore
 ├── Dockerfile
+├── LICENSE
+├── README.md
+├── Report.md
 ├── data/
 │   ├── raw/
-│   │   └── chartiy_data.csv
+│   │   └── charity_data.csv
 │   └── processed/
 │       ├── AlphabetSoupCharity.h5
-│       ├── AlphabetSoupChairty_Optimization.h5
-│       ├── AlphabetSoupChairty_Optimization_1.h5
-│       └── AlphabetSoupChairty_Optimization_2.h5
+│       ├── AlphabetSoupCharity_Optimization.h5
+│       ├── AlphabetSoupCharity_Optimization_1.h5
+│       └── AlphabetSoupCharity_Optimization_2.h5
 ├── notebooks/
 │   ├── test_1.ipynb
 │   ├── test_2.ipynb
 │   ├── test_3.ipynb
 │   └── test_4.ipynb
+
 ```
 
 ## Docker Setup - I used Docker to create a linux based setup to run Tensorflow. If your system runs Tensorflow without issue, skip the Docker Setup
